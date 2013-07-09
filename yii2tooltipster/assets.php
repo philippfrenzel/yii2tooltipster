@@ -4,7 +4,7 @@ return array(
 	'yii2tooltipster/core' => array(
 		'sourcePath' => __DIR__ . '/assets',
 		'js' => array(
-			'js/tooltipster.min.js'
+			'js/jquery.tooltipster.min.js'
 		),
 		'css' => array(
 			'css/tooltipster.css',
