@@ -1,6 +1,6 @@
 {
 	"name": "philippfrenzel/yii2tooltipster",
-	"description": "Yii2 elfinder Widgets",
+	"description": "Yii2 tooltipster Integration",
 	"keywords": ["yii", "framework","yii2 jquery tooltipster"],
 	"homepage": "http://www.frenzel.net/",
 	"type": "library",
