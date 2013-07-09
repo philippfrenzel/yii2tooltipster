@@ -4,6 +4,24 @@ yii2tooltipster
 Tooltipster JQuery Extension Yii2
 http://calebjacob.com/tooltipster/#demos
 
+Install
+=======
+
+use composer and packagist!
+
+Add Path to yii:
+
+```php
+Yii::setAlias('@yii2tooltipster', __DIR__ . '/../vendor/philippfrenzel/yii2tooltipster/yii2tooltipster/');
+```
+
+And in the view where you wanna use it:
+
+```php
+echo yii2tooltipster::widget($options=array());
+```
+
+
 ```js
 $('.tooltip').tooltipster({
    animation: 'fade',
