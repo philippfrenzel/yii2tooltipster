@@ -72,8 +72,9 @@ class yii2tooltipster extends Widget
         $js = array();
         
         $className = $this->options['class'];
-        $cleanOptions = Json::encode($this->clientOptions);
-        $js[] = "$('$className').tooltipster($cleanOptions);";
+        
+        $options = empty($this->clientOptions) ? '' : Json::encode($this->clientOptions);
+        $js[] = "$('$className').tooltipster($options);";
         
         $view->registerJs(implode("\n", $js),View::POS_READY);
     }
