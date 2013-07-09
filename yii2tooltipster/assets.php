@@ -7,8 +7,6 @@ return array(
 			'js/tooltipster.min.js'
 		),
 		'css' => array(
-			'css/reset.css',
-			'css/style.css',
 			'css/tooltipster.css',
 			'css/themes/light.css'
 		),

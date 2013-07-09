@@ -29,6 +29,12 @@ class yii2tooltipster extends Widget
         'class' => '.tooltip',
     );
 
+
+    /**
+    * @var array all attributes that be accepted by the plugin, check docs!
+    */
+    public $clientOptions = array();
+
     /**
      * Initializes the widget.
      * If you override this method, make sure you call the parent implementation first.
@@ -66,7 +72,8 @@ class yii2tooltipster extends Widget
         $js = array();
         
         $className = $this->options['class'];
-        $js[] = "$('$className').tooltipster();";
+        $cleanOptions = Json::encode($this->clientOptions);
+        $js[] = "$('$className').tooltipster($cleanOptions);";
         
         $view->registerJs(implode("\n", $js),View::POS_READY);
     }
