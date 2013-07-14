@@ -8,7 +8,7 @@ return array(
 		),
 		'css' => array(
 			'css/tooltipster.css',
-			'css/themes/light.css'
+			'css/themes/tooltipster-light.css'
 		),
 		'depends'=>array(
 			'yii/jquery'
