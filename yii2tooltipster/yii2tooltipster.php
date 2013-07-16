@@ -67,7 +67,7 @@ class Yii2Tooltipster extends Widget
 
         //get the displayed view and register the needed assets
         $view = $this->getView();
-        $view->registerAssetBundle("yii2tooltipster/core");
+        $view->registerAssetBundle("Yii2Tooltipster/Yii2Tooltipster");
 
         $js = array();
         

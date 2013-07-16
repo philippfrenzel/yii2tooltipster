@@ -14,8 +14,7 @@ use yii\web\AssetBundle;
  */
 class Yii2TooltipsterAsset extends AssetBundle
 {
-    public $basePath = '@wwwroot';
-    public $baseUrl = '@www';
+    public $sourcePath = '@yii/yii2tooltipster/assets';
     public $css = array(
         'css/tooltipster.css',
         'css/themes/tooltipster-light.css'
