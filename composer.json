@@ -1,5 +1,5 @@
 {
-	"name": "philippfrenzel/yii2tooltipster",
+	"name": "philippfrenzel/Yii2Tooltipster",
 	"description": "Yii2 tooltipster Integration",
 	"keywords": ["yii", "framework","yii2 jquery tooltipster"],
 	"homepage": "http://www.frenzel.net/",
@@ -21,6 +21,6 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-0": { "yii2tooltipster\\": "/" }
+		"psr-0": { "Yii2Tooltipster\\": "/" }
 	}
 }

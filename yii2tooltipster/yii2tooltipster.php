@@ -8,7 +8,7 @@
  *
  */
 
-namespace yii2tooltipster;
+namespace Yii2Tooltipster;
 
 use Yii;
 use yii\base\Model;
@@ -17,7 +17,7 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\base\Widget as Widget;
 
-class yii2tooltipster extends Widget
+class Yii2Tooltipster extends Widget
 {
 
     /**
