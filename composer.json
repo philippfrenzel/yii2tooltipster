@@ -22,5 +22,8 @@
 	},
 	"autoload": {
 		"psr-0": { "Yii2Tooltipster\\": "/" }
-	}
+	},
+	"extra": {
+          "bootstrap": "Yii2Tooltipster\\Extension"
+  }
 }
