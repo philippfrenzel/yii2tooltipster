@@ -21,7 +21,7 @@
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
-		"psr-0": { "philippfrenzel\\Yii2Tooltipster\\": "" }
+		"psr-0": { "philippfrenzel\\yii2tooltipster\\": "" }
 	},
-	"target-dir": "philippfrenzel/Yii2Tooltipster"
+	"target-dir": "philippfrenzel/yii2tooltipster"
 }
