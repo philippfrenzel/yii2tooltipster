@@ -8,7 +8,7 @@
  *
  */
 
-namespace Yii2Tooltipster;
+namespace philippfrenzel\Yii2Tooltipster;
 
 use Yii;
 use yii\base\Model;
