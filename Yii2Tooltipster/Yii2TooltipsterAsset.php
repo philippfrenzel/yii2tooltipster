@@ -4,7 +4,7 @@
  * @author Philipp Frenzel <philipp@frenzel.net> 
  */
 
-namespace Yii2Tooltipster;
+namespace philippfrenzel\Yii2Tooltipster;
 
 use yii\web\AssetBundle;
 
@@ -14,14 +14,17 @@ use yii\web\AssetBundle;
  */
 class Yii2TooltipsterAsset extends AssetBundle
 {
-    public $sourcePath = '@Yii2Tooltipster/assets';
+    public $sourcePath = '@philippfrenzel/Yii2Tooltipster/assets';
+    
     public $css = array(
         'css/tooltipster.css',
         'css/themes/tooltipster-light.css'
     );
+    
     public $js = array(
         'js/jquery.tooltipster.min.js'
     );
+    
     public $depends = array(
         'yii\web\JqueryAsset',
     );
