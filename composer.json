@@ -20,7 +20,7 @@
 	"require": {
 		"php" :  ">=5.4.0",
 		"yiisoft/yii2": "*",
-		"bower-asset" : "tooltipster"
+		"bower-asset/tooltipster" : "~3.3.0"
 	},
 	"autoload": {
 		"psr-0": { "philippfrenzel\\yii2tooltipster\\": "" }
