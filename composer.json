@@ -4,7 +4,7 @@
 	"keywords": ["yii", "framework","yii2 jquery tooltipster"],
 	"homepage": "http://www.frenzel.net/",
 	"type": "yii2-extension",
-	"license": "BSD-3-Clause",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Philipp Frenzel",
@@ -18,7 +18,9 @@
 	},
 	"minimum-stability": "dev",
 	"require": {
-		"yiisoft/yii2": "*"
+		"php" :  ">=5.4.0",
+		"yiisoft/yii2": "*",
+		"bower-asset" : "tooltipster"
 	},
 	"autoload": {
 		"psr-0": { "philippfrenzel\\yii2tooltipster\\": "" }
