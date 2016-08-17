@@ -14,7 +14,7 @@ use yii\web\AssetBundle;
  */
 class yii2tooltipsterAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/tooltipster';
+    public $sourcePath = '@bower/tooltipster/dist/';
     
     public $css = array(
         'css/tooltipster.css',
