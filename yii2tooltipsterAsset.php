@@ -14,15 +14,15 @@ use yii\web\AssetBundle;
  */
 class yii2tooltipsterAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/tooltipster/dist/';
+    public $sourcePath = '@bower/tooltipster/';
     
     public $css = array(
-        'css/tooltipster.css',
-        'css/themes/tooltipster-light.css'
+        'dist/css/tooltipster.css',
+        'dist/themes/tooltipster-light.css'
     );
     
     public $js = array(
-        'js/jquery.tooltipster.min.js'
+        'dist/js/jquery.tooltipster.min.js'
     );
     
     public $depends = array(
